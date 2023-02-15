@@ -1,10 +1,8 @@
 import requests
 from send_email import send_email
+from credentials import api
 
-# Import api key from text file to keep private. Replace {api} with API key
-api_file = open('api.txt')
-api = api_file.read()
-api_key = api
+api = api
 
 topic = 'guitar'
 
